@@ -52,6 +52,7 @@ npm run dev
 
 ##  API Endpoints
 http://localhost:4001/api/flowers
+http://localhost:4001/api/users/getusers
 
 > Use **form-data** in Postman, set the file field key as `Image`.
 
