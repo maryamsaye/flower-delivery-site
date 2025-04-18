@@ -7,7 +7,7 @@ const {
   deleteFlower,
   updateFlower,
   upload
-} = require('../Controllers/flowerController');
+} = require('../controllers/flowerController');
 
 const router = express.Router()
 

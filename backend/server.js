@@ -3,6 +3,7 @@ const flowersRouter = require('./routes/flowers');
 const mongoose = require('mongoose');
 require('dotenv').config();
 const path = require('path');
+const userRouter = require('./routes/users')
 
 const app = express();
 const PORT = process.env.PORT || 4000; // ✅ Default value for PORT
@@ -31,7 +32,9 @@ app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
   
 
 // Define a test route
-app.use('/api/flowers', flowersRouter); // ✅ Corrected variable name
+app.use('/api/flowers', flowersRouter);
+app.use('/api/users', userRouter)
+ // ✅ Corrected variable name
 
 // Start the server
 app.listen(PORT, () => {
