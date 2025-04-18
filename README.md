@@ -51,18 +51,7 @@ npm run dev
 ---
 
 ##  API Endpoints
-
-###  Get all flowers
-
-`GET /api/flowers`
-
-###  Get a flower by ID
-
-`GET /api/flowers/:id`
-
-###  Create a flower
-
-`POST /api/flowers`
+http://localhost:4001/api/flowers
 
 > Use **form-data** in Postman, set the file field key as `Image`.
 
