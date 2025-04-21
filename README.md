@@ -33,7 +33,7 @@ npm install
 
 ```env
 MONGO_URI=your_mongodb_connection_string
-PORT=4000
+PORT=4001
 ```
 
 ### 3. Start the server
@@ -75,7 +75,7 @@ Deletes the flower and its associated image file.
 Uploaded images are served from:
 
 ```
-http://localhost:4000/uploads/<filename>
+http://localhost:4001/uploads/<filename>
 ```
 ##  Dependencies
 
