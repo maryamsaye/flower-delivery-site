@@ -54,21 +54,6 @@ npm run dev
 http://localhost:4001/api/flowers
 http://localhost:4001/api/users/getusers
 
-> Use **form-data** in Postman, set the file field key as `Image`.
-
-###  Update a flower
-
-`PATCH /api/flowers/:id`
-
-Can optionally include a new image in `Image` field (replaces the old one).
-
-###  Delete a flower
-
-`DELETE /api/flowers/:id`
-
-Deletes the flower and its associated image file.
-
----
 
 ## Static Files
 
