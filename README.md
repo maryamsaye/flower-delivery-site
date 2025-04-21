@@ -1,5 +1,7 @@
 # flower-delivery-site
 
+
+## Overview
 This is the backend API for the Flower Website, built using **Node.js**, **Express**, **MongoDB**, and **Multer** for handling image uploads.
 
 ##  Features
@@ -11,6 +13,9 @@ This is the backend API for the Flower Website, built using **Node.js**, **Expre
 - Static file serving for uploaded images
 
 ---
+## Live demo
+[Live demo](https://flower-delivery-site.onrender.com)
+
 
 ##  Folder Structure
 
@@ -22,9 +27,9 @@ backend/
 │   └── flowerModel.js
 ├── routes/
 │   └── flowers.js
-├── uploads/               # Stores uploaded images
-├── server.js              # App entry point
-├── .env                   # Environment variables
+├── uploads/               
+├── server.js              
+├── .env           
 ├── package.json
 ```
 
