@@ -47,7 +47,7 @@ npm install
 
 ```env
 MONGO_URI=your_mongodb_connection_string
-PORT=4000
+PORT=4001
 ```
 
 ### 3. Start the server
@@ -65,41 +65,16 @@ npm run dev
 ---
 
 ##  API Endpoints
+http://localhost:4001/api/flowers
+http://localhost:4001/api/users/getusers
 
-###  Get all flowers
-
-`GET /api/flowers`
-
-###  Get a flower by ID
-
-`GET /api/flowers/:id`
-
-###  Create a flower
-
-`POST /api/flowers`
-
-> Use **form-data** in Postman, set the file field key as `Image`.
-
-###  Update a flower
-
-`PATCH /api/flowers/:id`
-
-Can optionally include a new image in `Image` field (replaces the old one).
-
-###  Delete a flower
-
-`DELETE /api/flowers/:id`
-
-Deletes the flower and its associated image file.
-
----
 
 ## Static Files
 
 Uploaded images are served from:
 
 ```
-http://localhost:4000/uploads/<filename>
+http://localhost:4001/uploads/<filename>
 ```
 ## 🛠 Dependencies
 

@@ -17,7 +17,7 @@ app.use((req, res, next) => {
   next();
 });
 
-// MongoDB connection string from .env
+
 const MONGO_URI = process.env.MONGO_URI;
 
 mongoose.connect(MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true })
@@ -35,7 +35,7 @@ app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 // Define a test route
 app.use('/api/flowers', flowersRouter);
 app.use('/api/users', userRouter)
- // ✅ Corrected variable name
+
 
 // Start the server
 app.listen(PORT, () => {
