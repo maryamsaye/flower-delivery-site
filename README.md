@@ -5,7 +5,7 @@ This is the backend API for the Flower Website, built using **Node.js**, **Expre
 
 ## live demo
 
-[render] (https://flower-delivery-site-2.onrender.com)
+[render] (https://flower-delivery-site-2.onrender.com/api/flowers)
 ## presentation link
 [loom video](https://www.loom.com/share/13bf408d67b042b5ab3f31066ea5367d)
 
